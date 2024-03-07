@@ -1,7 +1,10 @@
 package main
 
 import (
+	"fmt"
 	"golang.org/x/tour/pic"
+	"image"
+	"image/color"
 )
 
 func Pic(dx,dy int) [][]uint8 {
